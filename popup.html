@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mini Stopwatch</title>
+<style>
+ 
+  html, body {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    background: #111;
+    font-family: "Courier New", monospace;
+    user-select: none;
+    overflow: hidden;
+  }
+
+  #wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: move;
+  }
+
+  #time {
+    color: #ffffff;
+    font-size:30px;
+    letter-spacing: 1px;
+    font-weight:bolder;
+  }
+
+  .btns {
+    display: flex;
+    gap: 10px;
+
+  }
+  button {
+    background: #ffffff;
+    color: #000000;
+    border: 1.5px solid #0dff00;
+    font-size: 14px;
+    padding: 1px 4px;
+    cursor: pointer;
+    width: 45px;
+    height: 20px;
+    text-align: center;
+  }
+  button:active {
+    background: #00ff6a;
+    color: #111;
+  }
+</style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="time">00:00:00</div>
+    <div class="btns">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
