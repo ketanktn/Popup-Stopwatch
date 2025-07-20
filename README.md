@@ -31,9 +31,7 @@ Perfect for devs, students, and productivity lovers who want a tiny stopwatch on
 ```bash
 git clone https://github.com/ketanktn/Popup-Stopwatch.git
 cd Popup-Stopwatch
-
----
-
+```
 
 
 
