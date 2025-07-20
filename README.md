@@ -47,8 +47,7 @@ cd Popup-Stopwatch
 
 ## 🖼️ Preview
 
+<img width="142" height="71" alt="Screenshot" src="https://github.com/user-attachments/assets/6f9dccd7-56e0-43e2-99f3-4f80a9e5fc5b" />
 
-```markdown
-![screenshot](./Screenshot.png)
 
 
